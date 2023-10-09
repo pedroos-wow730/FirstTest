@@ -19,6 +19,7 @@ body{
     overflow-x: hidden;
 }
 
+/* ================= Header ============================ */
 header{
     padding: 15px 8%;
     width: 100%;
@@ -90,7 +91,6 @@ ul.navlist{
     width: 30px;
     height: 30px;
     cursor: pointer;
-    /* background: blue; */
 }
 
 .menu-icon .bar,
@@ -119,7 +119,7 @@ ul.navlist{
     opacity: 0;
 }
 
-/* ==================== home section css code ============================ */
+/* ==================== Home Section ============================ */
 section{
     padding: 90px 8%;
 }
@@ -137,9 +137,7 @@ section{
 
 .img-hero img{
     width: 400px;
-    /* object-position:50px; */
-    /* text-align: left; */
-    /* float: left;  */
+    
 }
 
 .home-info{
@@ -246,7 +244,6 @@ section{
 }
 
 .social-media a:hover{
-    /* background: rgba(0, 166, 255, 0.934); */
     background: linear-gradient(180deg,rgba(0, 166, 255, 0.934)70%,
     white 40%,
     rgba(0, 166, 255, 0.934)75%);
@@ -353,7 +350,7 @@ section{
     font-size: 1.2rem;
 }
 
-/* ==================== About section css code ============================ */
+/* ==================== About Section ============================ */
 
 .about{
     display: flex;
@@ -385,13 +382,7 @@ section{
     line-height: 3rem;
     margin: .5rem 0;
 }
-/* .about-content h3 button{
-    font-size: 2.1rem;
-    background-color: #00aaff;
-    background: #00aaff;
-    border: none;
 
-} */
 
 .about-content p{
     color: #90979f;
@@ -440,7 +431,8 @@ section{
     rgba(0,0,0,0.23)0px 6px 6px;
 }
 
-/* ==================== Services section css code ============================ */
+/* ==================== Services Section ============================ */
+
 .services{
     position: relative;
 }
@@ -582,7 +574,8 @@ section{
     padding: 10px 20px;
 }
 
-/* ==================== portfolio section css code ============================ */
+/* ==================== Portfolio Section ============================ */
+
 .fillter-buttons{
     text-align: center;
     padding: .5rem;
@@ -662,7 +655,7 @@ section{
     margin: .5rem 0 1rem 0;
 }
 
-/* ==================== Blog section css code ============================ */
+/* ==================== Blog Section ============================ */
 .blog-box{
     padding: .5rem !important;
 }
@@ -732,7 +725,7 @@ section{
     rgba(0, 166, 255, 0.934)75%)!important;
 }
 
-/* ==================== Contact section css code ============================ */
+/* ==================== Contact Section ============================ */
 .contactSkills{
     display: flex;
     justify-content: space-between;
@@ -789,7 +782,7 @@ form .btn{
     cursor: pointer;
     border: none;
 }
-/* ==================== Skills section css code ============================ */
+/* ==================== Skills Section ============================ */
 .skillBox{
     padding: 0 1rem 1rem;
 }
@@ -842,14 +835,7 @@ form .btn{
     height: 100%;
 }
 
-.outer-circle svg circle{
-    /* fill: none;
-    stroke-width: 15px;
-    stroke: url(#GradientColor);
-    stroke-linecap: round; */
-    /* stroke-dasharray: 465; */
-    /* stroke-dashoffset: 464;  */
-}
+
 circle.c1{
     fill: none;
     stroke-width: 15px;
@@ -910,7 +896,7 @@ h2.counter span{
     font-weight: 500;
 }
 
-/*======================= footer ============================ */
+/*======================= Footer ============================ */
 footer{
     text-align: center;
     margin: 0 8%;
@@ -918,6 +904,7 @@ footer{
     border-top: 2px solid #e8e1e1;
 }
 
+/*====================== Side Progress Bar ==================*/
 #progress{
     position: fixed;
     background: #194eb9;
