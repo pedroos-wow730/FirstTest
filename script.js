@@ -1,4 +1,4 @@
-// active hamburger menu 
+// active  menu 
 let menuIcon = document.querySelector(".menu-icon");
 let navlist = document.querySelector(".navlist")
 menuIcon.addEventListener("click",()=>{
@@ -22,7 +22,7 @@ text.innerHTML = text.innerHTML.split("").map((char,i)=>
 ).join("");
 
 
-//About Page:switch between about buttons 
+//About Page:switch between about buttons(Main skills, education ,awards) 
 
 const buttons = document.querySelectorAll('.about-btn button');
 const contents = document.querySelectorAll('.content');
@@ -53,7 +53,9 @@ var mixer = mixitup('.portfolio-gallery',{
         duration: 500
     }
 });
-//Blog PaGE:this section help us to make image slideshow using the  javascript library swiper.js 
+
+//Blog PagE:this section help us to make image slideshow using the  javascript library swiper.js 
+
 var swiper = new Swiper(".mySwiper", {
     slidesPerView: 1,
     spaceBetween: 30,
@@ -79,6 +81,7 @@ var swiper = new Swiper(".mySwiper", {
 });
 
 //Contact Page: From Validation
+
 function validateForm() {
     let x = document.forms["myForm"]["fname"].value;
     var regName = /\d+$/g; 
@@ -152,7 +155,6 @@ ScrollReveal({
     distance:"90px",
     duration:2000,
     delay:200,
-    // reset: true ,
 });
 
 
