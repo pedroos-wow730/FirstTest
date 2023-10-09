@@ -134,7 +134,7 @@ window.onscroll = calcScrollValue;
 window.onload = calcScrollValue;
 
 
-// active menu 
+// Active Menu 
 
 let menuLi = document.querySelectorAll("header ul li a");
 let section = document.querySelectorAll('section');
@@ -149,7 +149,7 @@ activeMenu();
 window.addEventListener("scroll",activeMenu);
 
 
-// scroll reveal
+// Scroll Reveal
 
 ScrollReveal({ 
     distance:"90px",
